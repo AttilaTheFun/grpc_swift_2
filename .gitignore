@@ -22,4 +22,16 @@ dev/codegen-tests/**/generated/*
 /scripts/.swift-format-source/
 Package.resolved
 *.out.*
-/Performance/Benchmarks/.benchmarkBaselines/
+/Performance/Benchmarks/.benchmarkBaselines/.env
+.env.*
+!.env.example
+env.sh
+*.pem
+*.p12
+*.p8
+*.key
+*.cer
+*.mobileprovision
+*.certSigningRequest
+GoogleService-Info.plist
+google-services.json
